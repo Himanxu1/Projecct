@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+
+}
+
+body{
+    background-color: antiquewhite;
+    margin: 0px;
+
+}
+.header{
+    background-color: rgb(86, 192, 253);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header h1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+   
+}
+
+.par{
+    margin-top: 40px;
+    position: absolute; 
+    left: 200px;
+    right: 200px;
+    font-size: 20px;
+    /* background-color: aqua; */
+}
+
+.img{
+position: absolute;
+width: 637px;
+height: 380px;
+/* display: flex; */
+align-items: center;
+justify-content: center;
+margin-top: 202px;
+left: 202px;
+}
+
+.img img{
+    width: 900px;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 500px;
+    left: 300px;
+    top: 500px;
+
+}
+
+.d1{
+    padding: 50px;
+    height: 200px;
+    width: 160px ;
+    background-color: rgb(87, 95, 95);
+    border-radius: 5px;
+    margin-left: -130px;    
+}
+
+.d1 button{
+    padding: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: 160px;
+    background-color: black;
+    color: aliceblue;
+    left: 50px;
+    border: none;
+}
+
+.d2{
+
+    padding: 50px;
+    height: 200px;
+    width: 160px ;
+    background-color: rgb(87, 95, 95);
+    border-radius: 5px;
+    margin-left: 100px ;
+    margin-right: 100px;
+
+}
+
+.d2 button{
+    padding: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: 160px;
+    left: 50px;
+    background-color: black;
+    color: aliceblue;
+    border:none;
+}
+
+
+.d3{
+    padding: 50px;
+    height: 200px;
+    width: 160px ;
+    background-color: rgb(87, 95, 95);
+    border-radius: 5px;
+    
+}
+
+.d3 button{
+    padding: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: 160px;
+    left: 50px;
+    background-color:black;
+    color:aliceblue;
+    border:none;
+
+}
+
+.footer{
+    height: 200px;
+    position: relative;
+    top: 800px;
+    margin-top: 470px;
+    background-color: rgb(44, 44, 44);
+
+}
+
+.footer p{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: monospace;
+    position: absolute;
+    left: 250px;
+    margin-top: 30px;
+
+}
+.footer button{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px ;
+    padding-bottom: 15px ;
+    font-size: 18px;
+    background-color: rgb(32, 185, 255);
+    color: white;
+    position: absolute;
+    top:70px;
+    left:530px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer hr{
+    color: aliceblue;
+    position: relative;
+    top:150px;
+    width: 1000px;
+    left: 169px;
+    border-width: 1px;
+}
